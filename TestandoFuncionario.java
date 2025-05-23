@@ -1,5 +1,3 @@
-package Projetos.Trabalho220525;
-
 public class TestandoFuncionario {
     public static void main(String[] args) {
 

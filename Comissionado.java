@@ -1,5 +1,3 @@
-package Projetos.Trabalho220525;
-
 public class Comissionado extends Funcionario{
     // Atributos:
     private double porcentagem;

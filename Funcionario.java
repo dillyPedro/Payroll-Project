@@ -1,5 +1,3 @@
-package Projetos.Trabalho220525;
-
 public abstract class Funcionario implements Pagamento{
     // Atributos:
     private String nome;

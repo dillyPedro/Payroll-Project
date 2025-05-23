@@ -1,5 +1,3 @@
-package Projetos.Trabalho220525;
-
 public class Assalariado extends Funcionario{
     // Atributos:
     private double salarioSemanal;

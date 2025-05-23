@@ -1,5 +1,3 @@
-package Projetos.Trabalho220525;
-
 public class Fatura implements Pagamento{
     // Fatura == invoice;
 

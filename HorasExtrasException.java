@@ -1,5 +1,3 @@
-package Projetos.Trabalho220525;
-
 public class HorasExtrasException extends Exception {
     // Criando a exceção para verificar as horas extras:
 

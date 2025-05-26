@@ -54,14 +54,15 @@ public class TestandoFuncionario {
         // Criando um objeto do tipo "Fatura":
         Fatura fatura = new Fatura("1111", "Computador", 12, 82.00);
 
-        // Retornando o valor total a ser pago:
-        Pagamento[] pagamentos = new Pagamento[5]; // ArrayList para retornar todos os pagamentos que estão conectados a interface;
+        // ArrayList para retornar todos os pagamentos que estão conectados a interface;
+        Pagamento[] pagamentos = new Pagamento[5]; 
         pagamentos[0] = a1;
         pagamentos[1] = h1;
         pagamentos[2] = c1;
         pagamentos[3] = ca1;
         pagamentos[4] = fatura;
 
+        // Retornando o valor total a ser pago de cada objeto instanciado:
         int i = 0;
         for(i = 0; i < pagamentos.length; i++) {
             System.out.println(pagamentos[i].toString());
